@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zainab Asif · Full-Stack Developer</title>
+    <title>Zainab Asif · Full-Stack Developer &amp; Cybersecurity Enthusiast</title>
 
     <!-- ====== CDN LINKS ====== -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -547,6 +547,45 @@
         }
         .cert-card .cert-link:hover { border-bottom-color: #4f46e5; }
 
+
+        /* ====== PROJECT DATE ====== */
+        .project-card .project-date {
+            color: #4f46e5;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* ====== ACHIEVEMENTS SECTION ====== */
+        .achievements-section { padding: 5rem 0; background: #f8faff; }
+        .achv-card {
+            background: white;
+            border-radius: 24px;
+            padding: 1.8rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+            border: 1px solid #eef2ff;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .achv-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 48px rgba(79, 70, 229, 0.06);
+            border-color: #c7d2fe;
+        }
+        .achv-card .achv-icon { font-size: 2rem; color: #4f46e5; margin-bottom: 0.8rem; }
+        .achv-card .achv-date { color: #4f46e5; font-size: 0.8rem; font-weight: 600; }
+        .achv-card h5 { font-weight: 700; font-size: 1.05rem; margin: 0.2rem 0 0.5rem; }
+        .achv-card p { color: #6b7a9f; font-size: 0.9rem; margin-bottom: 0; }
+        .achv-card .cert-link {
+            display: inline-block;
+            margin-top: 0.8rem;
+            color: #4f46e5;
+            font-weight: 600;
+            font-size: 0.85rem;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .achv-card .cert-link:hover { border-bottom-color: #4f46e5; }
+
         /* ====== CONTACT SECTION ====== */
         .contact-section { padding: 5rem 0; background: white; }
         .contact-info-item {
@@ -767,7 +806,7 @@
 <body>
 
     <!-- ====== NAVBAR ====== -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-xl fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Zainab<span>.</span></a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -778,9 +817,10 @@
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
                 <a href="#contact" class="btn btn-primary-custom ms-3">Hire Me</a>
@@ -802,8 +842,8 @@
                         <span id="typed"></span>
                     </div>
                     <p class="hero-text">
-                        I am a full-stack web developer. I can provide clean code and clear perfect design.
-                        BS IT student with hands-on experience in PHP, Django, MySQL, and cybersecurity fundamentals.
+                        Full-stack web developer and cybersecurity intern. I build clean, secure web applications with Python, Django and JavaScript,
+                        and I'm a BS Information Technology student with hands-on experience in network traffic analysis, intrusion detection and AI-powered apps.
                     </p>
                     <div class="hero-buttons">
                         <a href="#projects" class="btn btn-primary-custom"><i class="fas fa-code me-2"></i> My Projects</a>
@@ -860,25 +900,27 @@
                     I'm <span class="highlight">Zainab Asif</span>
                 </h2>
                 <p class="about-text">
-                    Hello! I'm Zainab Asif, a passionate <strong>Full-Stack Web Developer</strong> and BS Information Technology student at the University of Agriculture Faisalabad. 
-                    I build dynamic web applications with PHP, Django, and MySQL — including attendance systems, scholarship portals, employee dashboards, admin panels, authentication, role-based access, and CRUD modules.
+                    Hello! I'm Zainab Asif, a <strong>Full-Stack Web Developer</strong> and BS Information Technology student at the University of Agriculture Faisalabad.
+                    I build web applications with Python and Django from an e-commerce platform and a role-based HR management system to AI-powered tools
+                    that use the Google Gemini API — plus a cross-platform finance app in React Native.
                 </p>
                 <p class="about-text">
-                    I'm also building a strong foundation in <strong>cybersecurity</strong> — network security, OSI model, subnetting, cryptography, secure web development, and access control. 
-                    I love creating from scratch and continuously learning new technologies.
+                    I'm also building a strong foundation in <strong>cybersecurity</strong>. As a Cybersecurity Intern at CodeAlpha I built a Python packet sniffer,
+                    analysed traffic with Wireshark and practised intrusion detection with Snort. I'm a Cybersecurity Ambassador for PCC 2026 (NCCS, Air University)
+                    and an Executive Member of the Career Development Society at my university.
                 </p>
                 <div class="about-stats">
                     <div class="stat-item">
-                        <div class="stat-number">Learn</div>
-                        <div class="stat-label">&nbsp;</div>
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Projects Built</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">And</div>
-                        <div class="stat-label">&nbsp;</div>
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Work Roles</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">Grow</div>
-                        <div class="stat-label">&nbsp;</div>
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Certifications</div>
                     </div>
                 </div>
                 <a href="#contact" class="btn btn-primary-custom mt-3"><i class="fas fa-paper-plane me-2"></i> Let's Talk</a>
@@ -899,50 +941,77 @@
             <div class="row g-4">
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
                     <div class="skill-card">
-                        <div class="skill-icon"><i class="fas fa-terminal"></i></div>
-                        <h4>Programming & Web</h4>
+                        <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4>Cybersecurity</h4>
                         <div>
-                            <span class="skill-tag"><i class="fas fa-c"></i> C++</span>
-                            <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
-                            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
-                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
-                            <span class="skill-tag"><i class="fab fa-html5"></i> HTML5/CSS3</span>
-                            <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
-                            <span class="skill-tag"><i class="fab fa-python"></i> Django</span>
-                            <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                            <span class="skill-tag">OWASP Top 10</span>
+                            <span class="skill-tag">Network Security</span>
+                            <span class="skill-tag">Intrusion Detection Systems</span>
+                            <span class="skill-tag">Cryptography</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="skill-card">
-                        <div class="skill-icon"><i class="fas fa-database"></i></div>
-                        <h4>Database & Tools</h4>
+                        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                        <h4>Networking &amp; Operating Systems</h4>
                         <div>
-                            <span class="skill-tag">MySQL</span>
-                            <span class="skill-tag">MySQL Workbench</span>
-                            <span class="skill-tag">phpMyAdmin</span>
-                            <span class="skill-tag">XAMPP</span>
-                            <span class="skill-tag">VS Code</span>
-                            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                            <span class="skill-tag">Network Traffic Analysis</span>
+                            <span class="skill-tag">Computer Networking</span>
+                            <span class="skill-tag">TCP/IP Fundamentals</span>
+                            <span class="skill-tag"><i class="fab fa-linux"></i> Linux</span>
+                            <span class="skill-tag"><i class="fab fa-windows"></i> Windows</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="skill-card">
-                        <div class="skill-icon"><i class="fas fa-bullhorn"></i></div>
-                        <h4>Marketing & CMS</h4>
+                        <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                        <h4>Programming &amp; Web</h4>
                         <div>
-                            <span class="skill-tag"><i class="fab fa-facebook"></i> Meta Ads</span>
-                            <span class="skill-tag"><i class="fab fa-wordpress"></i> WordPress</span>
-                            <span class="skill-tag"><i class="fas fa-puzzle-piece"></i> Elementor</span>
-                            <span class="skill-tag"><i class="fas fa-shield-alt"></i> Cybersecurity</span>
+                            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                            <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
+                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="skill-tag"><i class="fab fa-python"></i> Django</span>
+                            <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                            <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+                            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h4>Database Management</h4>
+                        <div>
+                            <span class="skill-tag">SQLite</span>
+                            <span class="skill-tag">SQL Server</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">NoSQL</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                        <h4>Tools</h4>
+                        <div>
+                            <span class="skill-tag">Snort</span>
+                            <span class="skill-tag">Wireshark</span>
+                            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git &amp; GitHub</span>
+                            <span class="skill-tag">Visual Studio Code</span>
+                            <span class="skill-tag">VirtualBox</span>
+                            <span class="skill-tag">Vercel</span>
+                            <span class="skill-tag">Render</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="300">
                 <div style="display: inline-flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; background: white; padding: 0.6rem 2rem; border-radius: 60px; border: 1px solid #e0e7ff;">
-                    <span><strong style="color:#4338ca;">Core:</strong> <span style="color:#1e1b4b;">CRUD · Admin Dashboards · Auth · Responsive · DB Integration </span></span>
+                    <span><strong style="color:#4338ca;">Core:</strong> <span style="color:#1e1b4b;">Full-Stack Apps · Role-Based Dashboards · Gemini API Integration · Packet Analysis · Responsive UI</span></span>
                 </div>
             </div>
         </div>
@@ -961,28 +1030,28 @@
                     <div class="service-card">
                         <div class="service-icon"><i class="fas fa-globe"></i></div>
                         <h4>Web Development</h4>
-                        <p>Full-stack web applications with PHP, Django, MySQL</p>
+                        <p>Full-stack web applications with Python, Django and JavaScript</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card">
                         <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
-                        <h4>Web Design & Logo</h4>
+                        <h4>Web Design &amp; UI</h4>
                         <p>Clean, responsive, and modern UI/UX design</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card">
                         <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
-                        <h4>Apps Development</h4>
-                        <p>Web-based applications with CRUD and auth</p>
+                        <h4>Apps &amp; AI Development</h4>
+                        <p>Cross-platform apps and Gemini-powered tools</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-card">
                         <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
                         <h4>Cybersecurity</h4>
-                        <p>Secure coding, authentication, access control</p>
+                        <p>Network traffic analysis, intrusion detection, secure coding</p>
                     </div>
                 </div>
             </div>
@@ -998,46 +1067,87 @@
                 <p class="section-subtitle">Some of the projects I've built</p>
             </div>
             <div class="row g-4">
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
-                    <div class="project-card">
-                        <div class="project-body">
-                            <h4><i class="fas fa-clipboard-check me-2" style="color:#4f46e5;"></i> Attendance Management</h4>
-                            <div class="project-tech">
-                                <span>PHP</span>
-                                <span>MySQL</span>
-                                <span>XAMPP</span>
-                                <span>JavaScript</span>
-                            </div>
-                            <p>Full-stack attendance system with teacher dashboard, student management, class sections, and attendance tracking with reports.</p>
-                            <a href="https://github.com/zainab23-dev/attendance-system" target="_blank" class="btn btn-outline-custom btn-sm"><i class="fab fa-github me-1"></i> View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="project-card">
-                        <div class="project-body">
-                            <h4><i class="fas fa-graduation-cap me-2" style="color:#4f46e5;"></i> Scholarship Portal</h4>
-                            <div class="project-tech">
-                                <span>PHP</span>
-                                <span>MySQL</span>
-                                <span>Sessions</span>
-                            </div>
-                            <p>Scholarship search portal with student/admin workflows, role protection, profile management, and matched scholarship views.</p>
-                            <a href="https://github.com/zainab23-dev/student_scholarship_portal" target="_blank" class="btn btn-outline-custom btn-sm"><i class="fab fa-github me-1"></i> View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="0">
                     <div class="project-card">
                         <div class="project-body">
                             <h4><i class="fas fa-users me-2" style="color:#4f46e5;"></i> Employee Dashboard</h4>
+                            <div class="project-date">Apr 2026 – Aug 2026</div>
                             <div class="project-tech">
                                 <span>Python</span>
                                 <span>Django</span>
                                 <span>MySQL</span>
+                                <span>PostgreSQL</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                                <span>Git/GitHub</span>
                             </div>
-                            <p>Role-based dashboard (Admin, CEO, Employee) with CRUD, attendance, leave requests, task management, payroll, and notifications.</p>
-                            <span class="btn btn-outline-custom btn-sm" style="cursor:default; opacity:0.6;"><i class="fas fa-code-branch me-1"></i> In Progress</span>
+                            <p>Role-based HR &amp; Employee Operations Management System with modules for employee records, attendance, leave, tasks, projects, team coordination and payroll, plus dedicated dashboards for HR admins, the CEO and employees.</p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="https://github.com/zainab23-dev/employee-dashboard" target="_blank" rel="noopener" class="btn btn-outline-custom btn-sm"><i class="fab fa-github me-1"></i> View Code</a>
+                                <a href="https://employee-dashboard-snfl.onrender.com/" target="_blank" rel="noopener" class="btn btn-primary-custom btn-sm"><i class="fas fa-external-link-alt me-1"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-body">
+                            <h4><i class="fas fa-compass me-2" style="color:#4f46e5;"></i> Career Compass AI</h4>
+                            <div class="project-date">Jul 2026 – Aug 2026</div>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>Google Gemini API</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                                <span>SQLite</span>
+                            </div>
+                            <p>Django platform for personalized career recommendations with skill-based career matching, Gemini-generated weekly learning roadmaps and progress tracking.</p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="https://github.com/zainab23-dev/Compass-AI" target="_blank" rel="noopener" class="btn btn-outline-custom btn-sm"><i class="fab fa-github me-1"></i> View Code</a>
+                                <a href="https://compass-ai-n4n1.onrender.com/" target="_blank" rel="noopener" class="btn btn-primary-custom btn-sm"><i class="fas fa-external-link-alt me-1"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="project-card">
+                        <div class="project-body">
+                            <h4><i class="fas fa-file-alt me-2" style="color:#4f46e5;"></i> Reverse Resume</h4>
+                            <div class="project-date">Jun 2026 – Jul 2026</div>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>Google Gemini API</span>
+                                <span>Tailwind CSS</span>
+                                <span>Chart.js</span>
+                                <span>SQLite</span>
+                            </div>
+                            <p>AI-powered resume analysis platform that uses the Gemini API to compare resumes against job descriptions and identify skill gaps, with an interactive chart-based interface.</p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="https://github.com/nimramanzoor/reverse-resume" target="_blank" rel="noopener" class="btn btn-outline-custom btn-sm"><i class="fab fa-github me-1"></i> View Code</a>
+                                <a href="https://reverse-resume.onrender.com/" target="_blank" rel="noopener" class="btn btn-primary-custom btn-sm"><i class="fas fa-external-link-alt me-1"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-body">
+                            <h4><i class="fas fa-wallet me-2" style="color:#4f46e5;"></i> SpendWise</h4>
+                            <div class="project-date">Nov 2025 – Dec 2025</div>
+                            <div class="project-tech">
+                                <span>React Native</span>
+                                <span>Expo</span>
+                                <span>JavaScript</span>
+                                <span>AsyncStorage</span>
+                                <span>React Navigation</span>
+                            </div>
+                            <p>Cross-platform personal finance app with income and expense tracking, balance monitoring, weekly/monthly reports and an interactive dashboard (also runs on the web via React Native Web).</p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="https://github.com/nimramanzoor/spendwise" target="_blank" rel="noopener" class="btn btn-outline-custom btn-sm"><i class="fab fa-github me-1"></i> View Code</a>
+                                <a href="https://spendwise-five-gold.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary-custom btn-sm"><i class="fas fa-external-link-alt me-1"></i> Live Demo</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1050,41 +1160,40 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
-                    
                     <h2 class="section-title" style="font-size:2rem;">My <span class="highlight">Education</span></h2>
                     <div class="timeline-item">
-                        <div class="year">2023 – Present</div>
+                        <div class="year">Sep 2023 – Present · EQF level 6</div>
                         <h5>BS Information Technology</h5>
                         <p>University of Agriculture Faisalabad</p>
+                        <p class="mt-2" style="font-size:0.85rem;">Data Encryption and Security · Data Communication and Networks · Operating Systems (Windows and Linux) · Cloud Computing · IT Infrastructure · Database Systems and Administration · Data Structures and Algorithms · Discrete Structures · AI and Machine Learning · Software Engineering · Object-Oriented Programming · Web Programming</p>
                     </div>
                     <div class="timeline-item">
-                        <div class="year">2021 – 2023</div>
-                        <h5>ICS</h5>
-                        <p>Fazaia Degree College Shorkot Cantt</p>
+                        <div class="year">Aug 2021 – Jul 2023 · EQF level 4</div>
+                        <h5>Intermediate</h5>
+                        <p>Fazaia Degree College Rafiqui, Shorkot Cantt</p>
                     </div>
                     <div class="timeline-item">
-                        <div class="year">2018 – 2020</div>
-                        <h5>Matriculation in Science</h5>
-                        <p>Allied School Faisalabad</p>
+                        <div class="year">Mar 2018 – Jun 2020 · EQF level 3</div>
+                        <h5>Matric</h5>
+                        <p>Allied School Zumair Azam Campus, Faisalabad</p>
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
-                   
-                    <h2 class="section-title" style="font-size:2rem;">My <span class="highlight">Journey</span></h2>
+                    <h2 class="section-title" style="font-size:2rem;">Work <span class="highlight">Experience</span></h2>
                     <div class="timeline-item">
-                        <div class="year">Ongoing</div>
-                        <h5>Full-Stack Web Developer</h5>
-                        <p>Building web applications with PHP, Django, MySQL — attendance systems, scholarship portals, employee dashboards, admin panels, authentication, role-based access, and CRUD modules.</p>
+                        <div class="year">Oct 2026 – Nov 2026</div>
+                        <h5>Cybersecurity Intern · CodeAlpha</h5>
+                        <p>Developed a Python packet sniffer to capture and inspect network traffic. Analysed network packets using Wireshark and practised intrusion detection with Snort.</p>
                     </div>
                     <div class="timeline-item">
-                        <div class="year">Learning</div>
-                        <h5>Cybersecurity Fundamentals</h5>
-                        <p>Network security, OSI model, subnetting, cryptography, secure web development, authentication, access control, log analysis, and Linux basics.</p>
+                        <div class="year">Jan 2026 – Aug 2026</div>
+                        <h5>Junior Full-Stack Web Developer · Alfaventis Groups Ltd</h5>
+                        <p>Designed and developed a full-stack e-commerce website using Python and Django, with backend functionality, database management and routing. Built responsive frontend components, product listings and shopping cart features, and tested and debugged components for reliable performance.</p>
                     </div>
                     <div class="timeline-item">
-                        <div class="year">2021 – 2023</div>
-                        <h5>ICS</h5>
-                        <p>Fazaia Degree College Shorkot Cantt — building foundation in computer science.</p>
+                        <div class="year">Jul 2024 – Nov 2024 · Faisalabad, Pakistan</div>
+                        <h5>Digital Marketing Manager · H3 Solutions</h5>
+                        <p>Managed LinkedIn, Instagram and Facebook; created and scheduled content and campaigns; assisted with Meta Ads campaigns; maintained account security with 2FA and data privacy best practices.</p>
                     </div>
                 </div>
             </div>
@@ -1102,11 +1211,11 @@
             <div class="row g-4">
                 <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="0">
                     <div class="cert-card">
-                        <div class="cert-icon"><i class="fab fa-python"></i></div>
-                        <h4>Building Generative AI-Powered Apps</h4>
-                        <div class="cert-issuer">IBM · Coursera</div>
-                        <div class="cert-date">Dec 2025</div>
-                        <a href="https://coursera.org/verify/LR8G1B12D7V3" target="_blank" class="cert-link">
+                        <div class="cert-icon"><i class="fab fa-google"></i></div>
+                        <h4>Crash Course on Python</h4>
+                        <div class="cert-issuer">Google · Coursera</div>
+                        <div class="cert-date">Oct 2025</div>
+                        <a href="https://www.coursera.org/account/accomplishments/verify/I9G774XTNWWM" target="_blank" rel="noopener" class="cert-link">
                             <i class="fas fa-external-link-alt me-1"></i> Verify
                         </a>
                     </div>
@@ -1114,10 +1223,10 @@
                 <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="cert-card">
                         <div class="cert-icon"><i class="fas fa-robot"></i></div>
-                        <h4>Generative AI: Prompt Engineering</h4>
+                        <h4>Prompt Engineering for Generative AI: Build Better AI Prompts</h4>
                         <div class="cert-issuer">IBM · Coursera</div>
                         <div class="cert-date">Dec 2025</div>
-                        <a href="https://coursera.org/verify/MH5lQCZKW2GX" target="_blank" class="cert-link">
+                        <a href="https://www.coursera.org/account/accomplishments/verify/MH5IQCZKW2GX" target="_blank" rel="noopener" class="cert-link">
                             <i class="fas fa-external-link-alt me-1"></i> Verify
                         </a>
                     </div>
@@ -1125,23 +1234,99 @@
                 <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="cert-card">
                         <div class="cert-icon"><i class="fas fa-brain"></i></div>
-                        <h4>Introduction to Artificial Intelligence</h4>
+                        <h4>AI Foundations: How Artificial Intelligence Works</h4>
                         <div class="cert-issuer">IBM · Coursera</div>
                         <div class="cert-date">Dec 2025</div>
-                        <a href="https://coursera.org/verify/AT5ZUDKJQST6" target="_blank" class="cert-link">
+                        <a href="https://www.coursera.org/account/accomplishments/verify/AT5ZUDKJQST6" target="_blank" rel="noopener" class="cert-link">
                             <i class="fas fa-external-link-alt me-1"></i> Verify
                         </a>
                     </div>
                 </div>
                 <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="cert-card">
-                        <div class="cert-icon"><i class="fab fa-google"></i></div>
-                        <h4>Crash Course on Python</h4>
-                        <div class="cert-issuer">Google · Coursera</div>
-                        <div class="cert-date">Oct 2025</div>
-                        <a href="https://coursera.org/verify/19G774XTNWWM" target="_blank" class="cert-link">
+                        <div class="cert-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h4>Generative AI Essentials: From Fundamentals to Real-World Applications</h4>
+                        <div class="cert-issuer">IBM · Coursera</div>
+                        <div class="cert-date">Dec 2025</div>
+                        <a href="https://www.coursera.org/account/accomplishments/verify/MSIYDH8QZVV5" target="_blank" rel="noopener" class="cert-link">
                             <i class="fas fa-external-link-alt me-1"></i> Verify
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== ACHIEVEMENTS SECTION ====== -->
+    <section class="achievements-section" id="achievements">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge"><i class="fas fa-trophy me-1"></i> Achievements</span>
+                <h2 class="section-title">Honours, Events &amp; <span class="highlight">Volunteering</span></h2>
+                <p class="section-subtitle">Awards, hackathons, workshops and community work</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="achv-card">
+                        <div class="achv-icon"><i class="fas fa-award"></i></div>
+                        <div class="achv-date">Oct 2026</div>
+                        <h5>Cybersecurity Ambassador – PCC 2026</h5>
+                        <p>Selected as Campus Ambassador for PCC 2026 and the PakCrypt International Symposium on Cybersecurity, recognized by the National Centre for Cyber Security (NCCS), Air University, Islamabad, for promoting cybersecurity awareness among university students.</p>
+                        <a href="https://lnkd.in/p/dtRTyavt" target="_blank" rel="noopener" class="cert-link"><i class="fas fa-external-link-alt me-1"></i> View</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="achv-card">
+                        <div class="achv-icon"><i class="fas fa-user-shield"></i></div>
+                        <div class="achv-date">22 – 24 Sep 2026</div>
+                        <h5>5th Digital Pakistan Cybersecurity Hackathon 2026</h5>
+                        <p>National cybersecurity event at National Textile University, Faisalabad, organized by Ignite – National Technology Fund (Ministry of IT &amp; Telecom) with Trillium Information Security Systems.</p>
+                        <a href="https://drive.google.com/drive/folders/1EV_AxEPV8alTZuKsHIuAkkDVN_oSYWzj" target="_blank" rel="noopener" class="cert-link"><i class="fas fa-external-link-alt me-1"></i> View</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="achv-card">
+                        <div class="achv-icon"><i class="fas fa-gem"></i></div>
+                        <div class="achv-date">3 – 10 Aug 2026</div>
+                        <h5>AI Factory – Gemini AI</h5>
+                        <p>Built Career Compass AI, an AI-powered career guidance platform using the Google Gemini API for personalized recommendations and weekly learning roadmaps.</p>
+                        <a href="https://lablab.build/u/@zainabasif/ai-hackathons/nativebuilder-build-without-limits/certificate" target="_blank" rel="noopener" class="cert-link"><i class="fas fa-external-link-alt me-1"></i> View</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="achv-card">
+                        <div class="achv-icon"><i class="fas fa-microchip"></i></div>
+                        <div class="achv-date">6 – 13 Jul 2026</div>
+                        <h5>AMD Developer Hackathon – ACT II</h5>
+                        <p>Developed ReverseResume, an AI-powered platform that analyzes resumes against job descriptions and gives personalized feedback.</p>
+                        <a href="https://lablab.build/u/@zainabasif/ai-hackathons/amd-developer-hackathon-act-ii/certificate" target="_blank" rel="noopener" class="cert-link"><i class="fas fa-external-link-alt me-1"></i> View</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="achv-card">
+                        <div class="achv-icon"><i class="fas fa-lock"></i></div>
+                        <div class="achv-date">9 Aug 2026</div>
+                        <h5>Digital Safety Workshop</h5>
+                        <p>Workshop by Nexus Defenders covering online security, cybercrime awareness, digital fraud and online protection.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="achv-card">
+                        <div class="achv-icon"><i class="fas fa-question-circle"></i></div>
+                        <div class="achv-date">4 Jun 2026</div>
+                        <h5>CCSDF IT Battle 2026 – IT Quiz</h5>
+                        <p>Took part in an IT quiz competition organized by CCSDF at The Islamia University of Bahawalpur.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <h3 class="text-center mb-4" style="font-size:1.6rem;font-weight:700;">Volunteer<span class="highlight" style="background:linear-gradient(135deg,#4f46e5,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">ing</span></h3>
+                    <div class="timeline-item">
+                        <div class="year">Apr 2026 – Present · University of Agriculture Faisalabad</div>
+                        <h5>Executive Member · Career Development Society</h5>
+                        <p>Assisting in organizing career development activities, seminars, workshops and student engagement events, while building leadership, teamwork, communication and event management skills.</p>
                     </div>
                 </div>
             </div>
@@ -1180,17 +1365,24 @@
                         </div>
                     </div>
                     <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div>
+                            <h6>LinkedIn</h6>
+                            <p><a href="https://www.linkedin.com/in/zainab-asif-dev23/" target="_blank" rel="noopener" class="text-decoration-none text-dark">zainab-asif-dev23</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
                         <div class="contact-icon"><i class="fas fa-map-pin"></i></div>
                         <div>
                             <h6>Location</h6>
-                            <p>Pakistan</p>
+                            <p>Faisalabad, Pakistan</p>
                         </div>
                     </div>
 
                     <!-- ====== GOOGLE MAPS ====== -->
                     <div class="map-container" data-aos="fade-up" data-aos-delay="100">
                         <iframe 
-                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC7VTf5l2hrNfiQHF9Qjo8CP2S197xzbEM&q=Pakistan&zoom=5"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC7VTf5l2hrNfiQHF9Qjo8CP2S197xzbEM&q=Faisalabad,Pakistan&zoom=10"
                             allowfullscreen>
                         </iframe>
                     </div>
@@ -1239,7 +1431,7 @@
                 <div class="col-lg-4">
                     <h5>Zainab<span style="color:#4f46e5;">.</span></h5>
                     <p style="color:rgba(255,255,255,0.6); max-width:300px;">
-                        Full-Stack Web Developer passionate about building clean, functional, and secure web applications.
+                        Full-Stack Web Developer and cybersecurity enthusiast building clean, functional and secure web applications.
                     </p>
                     <div class="social-links">
                         <a href="https://github.com/zainab23-dev" target="_blank"><i class="fab fa-github"></i></a>
@@ -1252,16 +1444,16 @@
                     <ul class="list-unstyled">
                         <li><a href="#home" class="footer-link">Home</a></li>
                         <li><a href="#about" class="footer-link">About</a></li>
-                        <li><a href="#services" class="footer-link">Services</a></li>
                         <li><a href="#projects" class="footer-link">Projects</a></li>
+                        <li><a href="#achievements" class="footer-link">Achievements</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-6">
                     <h5>Skills</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#skills" class="footer-link">PHP / Django</a></li>
-                        <li><a href="#skills" class="footer-link">MySQL / SQL</a></li>
-                        <li><a href="#skills" class="footer-link">JavaScript / HTML</a></li>
+                        <li><a href="#skills" class="footer-link">Python / Django</a></li>
+                        <li><a href="#skills" class="footer-link">JavaScript / React</a></li>
+                        <li><a href="#skills" class="footer-link">PostgreSQL / MySQL</a></li>
                         <li><a href="#skills" class="footer-link">Cybersecurity</a></li>
                     </ul>
                 </div>
@@ -1296,9 +1488,9 @@
         var typed = new Typed('#typed', {
             strings: [
                 'Full-Stack Developer',
-                'Web Developer',
                 'Cybersecurity Enthusiast',
-                'PHP & Django Expert',
+                'Django Developer',
+                'AI-Powered App Builder',
             ],
             typeSpeed: 60,
             backSpeed: 40,
